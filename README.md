@@ -24,17 +24,17 @@ Here is an example of how to run the detection script:
 
 The parameters are as follows:
  
- - <input bam> a bam file containing paired-end reads from an RNA-seq experiment
- - <fusion list file> a file with one fusion per line on the format: `gene1>gene2`
- - <genes file> a file containing the coordinate for refseq genes fetched from: http://genome.ucsc.edu/cgi-bin/hgTables?command=start (Make sure to select output format: "all fields from selected table")
- - <custom genes file> a file containing genes not included in refseq on the following format:
+ - `<input bam>` a bam file containing paired-end reads from an RNA-seq experiment
+ - `<fusion list file>` a file with one fusion per line on the format: `gene1>gene2`
+ - `<genes file>` a file containing the coordinate for refseq genes fetched from: http://genome.ucsc.edu/cgi-bin/hgTables?command=start (Make sure to select output format: "all fields from selected table")
+ - `<custom genes file>` a file containing genes not included in refseq on the following format:
 
 ```
 gene    chrom   start   stop
 MLLT4   chr6    168225671       168374700
 IGH     chr14   105967564       107300892
 ```
- - <unknown genes in sample> is a file where any genes which are found in the <fusion list file> but are not found in either the <genes file> or the <custom genes file> are place
- - <output> a tab separated file which contains the support for each fusion. Each column is a fusion and each row is a sample. The values are the number of reads supporting the fusion per read sequenced.
+ - `<unknown genes in sample>` is a file where any genes which are found in the <fusion list file> but are not found in either the <genes file> or the <custom genes file> are place
+ - `<output>` a tab separated file which contains the support for each fusion. Each column is a fusion and each row is a sample. The values are the number of reads supporting the fusion per read sequenced.
 
 
