@@ -1,7 +1,7 @@
 Marincevic 2017
 ===============
 
-This repo contains the code accompanying the manuscript Transcriptome sequencing in pediatric acute lymphoblastic leukemia identifies fusion genes associated with distinct DNA methylation profiles, by Marincevic et. al.
+This repo contains the code accompanying the manuscript [Transcriptome sequencing in pediatric acute lymphoblastic leukemia identifies fusion genes associated with distinct DNA methylation profiles, by Marincevic et. al. (2017)](https://jhoonline.biomedcentral.com/articles/10.1186/s13045-017-0515-y)
 
 The script presented here uses a simple strategy for calling fusions genes based on looking for read pairs where the different reads in the pair map to different genes. While sensitive, this method also produces false positives, and is therefore best suited for a targeted approach.
 
